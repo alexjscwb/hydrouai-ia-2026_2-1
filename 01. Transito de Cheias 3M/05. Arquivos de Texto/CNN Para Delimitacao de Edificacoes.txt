@@ -1,0 +1,5 @@
+CNN para delimitação de edificações impactadas 
+
+https://sites.research.google/gr/open-buildings/
+
+https://colab.research.google.com/github/google-research/google-research/blob/master/building_detection/open_buildings_download_region_polygons.ipynb
