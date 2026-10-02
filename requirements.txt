@@ -1,5 +1,23 @@
-numpy>=2.0
-pandas>=2.2
-scikit-learn>=1.5
-matplotlib>=3.9
-torch>=2.4
+# Dependencias dos tres estudos de caso.
+# Ambiente: Python 3.11 de 64 bits, Windows/Linux x86-64.
+# Instalar: python -m pip install -r requirements.txt
+# PyTorch com CUDA 12.1; GPU NVIDIA/driver compativeis para aceleracao.
+# Tambem permite executar em CPU quando CUDA nao esta disponivel.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1+cu121
+# Compatibilidade com a interface NumPy desta versao do PyTorch.
+numpy==1.26.4
+pandas
+matplotlib
+scikit-learn
+scipy
+geopandas
+folium
+rasterio
+shapely
+pyproj
+branca
+pywin32; sys_platform == "win32"
+
+# HEC-RAS 6.4.1: instalar separadamente no Windows para o caso 1.
+# Spyder e opcional. Instalacao completa ainda nao validada em ambiente limpo.
