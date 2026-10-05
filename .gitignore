@@ -1,0 +1,33 @@
+# ============================================================
+# HydroUAI 2026
+# Controle de disponibilização das aulas
+# ============================================================
+
+# Ignorar todas as aulas
+02_Aulas/*
+
+# Liberar apenas as aulas já disponibilizadas
+!02_Aulas/Aula01/
+
+
+# ============================================================
+# Arquivos temporários
+# ============================================================
+
+# Python
+__pycache__/
+*.pyc
+
+# Spyder
+.spyproject/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.tmp
+~$*
