@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 """Experimento de preenchimento de falhas artificiais em séries diárias.
 
-Adaptação do preenchimento_2.py: média, interpolação, KNN e média histórica.
-As falhas úmidas das vazões incluem picos locais >= percentil 95.
-Valores originais posicionam os picos; após ocultados, não entram no preenchimento.
-ESTACOES_RESULTADOS escolhe somente as séries que terão tabelas e figuras.
-Todas as séries são preenchidas: series_preenchidas.csv usa o maior NSE por série,
-preserva os valores observados originais e preenche somente os vazios reais.
-Execute no Spyder ou: python preenchimento_2.py --input "series_selecionadas (1).csv"
 Dependências: numpy, pandas, scikit-learn, matplotlib; plotly é opcional.
 """
 
@@ -36,7 +29,7 @@ except ImportError:
     go = None  # Todos os PNGs e as métricas funcionam sem Plotly.
 
 BASE_DIR = Path(__file__).resolve().parent
-INPUT_CSV = BASE_DIR / "series_selecionadas (1).csv"
+INPUT_CSV = BASE_DIR / "series_selecionadas.csv"
 OUTPUT_FOLDER = BASE_DIR / "resultados_preenchimento"
 FINAL_CSV_NAME = "series_preenchidas.csv"  # Datas e TODAS as séries, independentemente dos relatórios.
 
