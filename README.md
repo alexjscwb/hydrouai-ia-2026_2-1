@@ -23,6 +23,9 @@ As aulas acontecem das **9h às 17h**, com teoria pela manhã e prática à tard
 
 Este repositório reúne apresentações, dados, scripts, notebooks e estudos de caso utilizados nas aulas. Os materiais serão liberados progressivamente ao longo dos dias, conforme o andamento do curso.
 
+##  Link de Material Complementar
+https://drive.google.com/drive/folders/1-AVoTsgVhUU178LQL9XVaF3op9auaSYr?usp=drive_link
+
 ## Uso didático
 
 Os materiais e exemplos destinam-se às atividades de aprendizado do curso. Respeite as permissões de uso dos dados fornecidos.
