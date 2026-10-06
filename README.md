@@ -26,6 +26,16 @@ Este repositório reúne apresentações, dados, scripts, notebooks e estudos de
 ##  Link de Material Complementar
 https://drive.google.com/drive/folders/1-AVoTsgVhUU178LQL9XVaF3op9auaSYr?usp=drive_link
 
+##  Link das Gravações
+
+https://drive.google.com/file/d/1xuGr5_TwRo7rb1P5VVTuUmAl74K1GzI_/view?usp=drive_link
+
+https://drive.google.com/file/d/1Pg5Z8QDEtSStPpviXDCdLBbB3iDSj9dd/view?usp=sharing
+
+##  Link do Formulário de Avaliação 
+
+https://forms.gle/NZpzYCzaddsqwyfx6
+
 ## Uso didático
 
 Os materiais e exemplos destinam-se às atividades de aprendizado do curso. Respeite as permissões de uso dos dados fornecidos.
