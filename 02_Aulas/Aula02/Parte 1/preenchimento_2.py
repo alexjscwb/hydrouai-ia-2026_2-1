@@ -40,7 +40,7 @@ GAP_LENGTHS_DAYS = (7, 15, 30)
 REPETITIONS_PER_SEASON = 1
 # EDITE ESTA LINHA: somente estas séries terão tabelas e figuras.
 # Todas as séries da base continuam sendo avaliadas e preenchidas.
-ESTACOES_RESULTADOS = ["Q_Afluente"]  # Ex.: ["Q_Afluente", "Q_40032000", "P_1944059"]
+ESTACOES_RESULTADOS = ["Q_Afluente","Q_40032000"]  # Ex.: ["Q_Afluente", "Q_40032000", "P_1944059"]
 MIN_SEPARATION_DAYS = 1  # Um dia intacto entre falhas, inclusive de séries diferentes.
 KNN_NEIGHBORS = 5
 WET_FLOW_GAPS_AT_PEAKS = True
